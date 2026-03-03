@@ -1,0 +1,2 @@
+k config set-credentials martin --client-key='/root/martin.key' --client-certificate="/root/martin.crt"
+k config set-context developer --user='martin' --cluster='kubernetes' --namespace='development'
